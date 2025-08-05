@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+*.swp
+*.moved-aside
+
+# Xcode user-specific state
+*.xcuserstate
+**/*.xcodeproj/xcuserdata/
+**/*.xcodeproj/*.xcuserdatad
+**/*.xcworkspace/xcuserdata/
+**/*.xcworkspace/*.xcuserdatad
+
+# Xcode SCM & workspace caches
+*.xcscmblueprint
+**/*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+**/*.xcworkspace/xcshareddata/swiftpm/
+
+# Build output
+build/
+DerivedData/
+Products/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# Binary / vendor frameworks
+Frameworks/
+*.framework
+*.xcframework
+*.a
+
+# Fastlane artifacts
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
